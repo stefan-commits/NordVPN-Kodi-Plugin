@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <category label="NordVPN CLI">
+    <setting id="cli_path" type="text" label="NordVPN executable (name or full path)" default="nordvpn"/>
+    <setting id="flatpak_host" type="bool" label="Flatpak host commands (requires host permission)" default="false"/>
+  </category>
+</settings>

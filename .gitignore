@@ -1,0 +1,11 @@
+# User credentials must never be published.
+access_token.txt
+
+# Local caches and operating-system metadata.
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Historical backups and generated release packages.
+legacy-backup/
+dist/

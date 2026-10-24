@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="service.nord.vpn" name="NordVPN CLI" version="6.0.4" provider-name="Community">
+  <requires><import addon="xbmc.python" version="3.0.0"/></requires>
+  <extension point="xbmc.python.script" library="addon.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Control the NordVPN Linux CLI from Kodi</summary>
+    <description lang="en_GB">Token login, server and location selection, VPN settings and allowlist controls. Requires the NordVPN Linux app. Unofficial community add-on.</description>
+    <platform>linux</platform>
+    <license>GPL-3.0-or-later</license>
+    <assets><icon>icon.png</icon></assets>
+  </extension>
+</addon>
